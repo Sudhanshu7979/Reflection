@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    If we see diff between 2 files then we can easily find out what is change in new version of file which was not in old version which might helps us to find the bugs.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+   
+   If u see that u have access to entire history of the file which u were working on and it is of thousand lines & suppose u change something in it and u don't know what u change then u can go back to previous version by using history which help a lot for programming and do some experiment on ur file becouse u know u have previous version of file stored. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Like if we save automatically then it may happen that it same too many files which is not needed or save at a point of time where we are in middle of writting. Simple we don't have control over how to save when to save but it do have pros which u don't have to worry about save version of files it save 4 u.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Like git where we have choice of choosing how many file did u want to commit which is prettty good thing because we have flexibility to control our commites unlike google docs where one file get commmited automatically at a time which means they act separately and there is no control of user choice over commits which is somehow not good or good also since user does not have to care about commits.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    When we use git log then it shows all the version of files with there id then we can use ids of files which we want to compare using git diff.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using Bersion-Control gives u a flexibility to do any thing with ur code u can perform experiments on it, u can perform different manipulation on it to retrieve different result even if code breaks or error generated because u always know that that old versions of files/codes were stored.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I wanna use git for my project, to work on it in derrent ways to see different result.
