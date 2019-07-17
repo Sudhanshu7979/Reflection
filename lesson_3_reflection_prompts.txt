@@ -7,12 +7,12 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    That's because when it start happening automatically then suppose ur in the miidel of doing something and fike get commited and upload to github having half of the change which might be not good. or it create so many commits which is not useful to u.
+    That's because when it start happening automatically then suppose ur in the midel of doing something in github and file get commited by u but u might wanna change something more in it but eventually it get pull to local machine with half of change and this happen again and again which create so many commits which we don't want.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    When I need to work on someone project on github I simple forks it so that clone of that repo should present to meand when I want to do some coding to some file like in repo which is present in github or I might want someone repository to my local machine then I use clone and suppose 2 peaple want to work on same file then we need branch so that both modification does not affect each other works. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
