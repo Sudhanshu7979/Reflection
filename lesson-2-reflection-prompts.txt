@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+    When u initalize a repo then .git file were create which stores the metadata of the history of the versions of file which is essential when u want to store commits for ur file.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+      Staging area is different from both directory in a way that in sataging area u add those file which u want to commit to make one commit per logical changes and it provide u flexibility to put/ready ur file to be commited and also provide capabilities to reset if u accidentally add file to staging area by "git reset --hard".
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+ Like I've done, I put 2 file in staging area then with single commit I can maintain one commit per logical change. 
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+        When u create verdions of file by commiting it create linear line of versions of file but what happened when u want to create next version to do experiment and same next to diifferent language. well u can do that but when it comes to access that bot files or one of them then u need to checkout to previous one but supoose u have some bug in main version from which both version were created(master branch) then u modified that version which is on different branch. Well git provide another way to do this by creating labels called branch we can create branch for experiment and another for language
+         eg:- git branch
+		git branch easy-mode
+          right now ur master branch which is create by git is checkout and we need to checkout easy-mode
+                git checkout easy-mode
+          now u can check by  git branch
+              now u can change into file and add to staging area and commit it.this will lead to create linear branching to branch out commits.
+
+How do the diagrams help you visualize the branch structure?
+
+ we can visualize branch structure(git log --graph __oneline master coins) which will show u what are the commits available in each branch with in some order, it will also give u a dtails that from which commits the new branch is checkout.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+   The result of merge is that all the commits made by both or versions were get into single branch from where we can access them and we need to reperesent it into diagram because we need to show what commits we made in each branch and after all commits when we merge which commits were get into that merge branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+ Pros of git automatic merging is that u don't have to see manually which commits should comes comes first and which comes after which is done by git based on timestamp but there are aalso cons which may be occured cinflict bon time of merging(supoose u have 2 file having same functions and u want to merge them the git get confused that which function should it keep so resolve this conflict git let user to decide which function should be kept in this way conflict were resolved in git)
